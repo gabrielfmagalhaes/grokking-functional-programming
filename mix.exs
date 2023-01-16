@@ -1,9 +1,9 @@
-defmodule HelloWorld.MixProject do
+defmodule GrokkingFunctionalProgramming.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :hello_world,
+      app: :grokking_functional_programming,
       version: "0.1.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
